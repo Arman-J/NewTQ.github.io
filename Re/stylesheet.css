@@ -9,15 +9,15 @@
     color:rgb(212, 23, 48);
 }
 p{
-    ont-family:open sans; 
+    font-family:open sans; 
     font-size:25px;
     text-align:center;
 }
 #p-head:hover{
-	text-decoration:underline;
+	text-shadow: 0px 0px 1px black;
 }
 #hiw-head:hover{
-	text-decoration:underline;
+	text-shadow: 0px 0px 1px black;
 }
 #p-main{
 	border-left:solid 10px rgb(48, 48, 48);
