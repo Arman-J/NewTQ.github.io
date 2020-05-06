@@ -1,3 +1,5 @@
+/*Functions*/
+//Fading fucntion to fade elements
 function fade(element) {
     var op = 1;  // initial opacity
     var timer = setInterval(function () {

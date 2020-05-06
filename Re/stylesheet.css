@@ -18,13 +18,27 @@ p{
 .head:hover{
 	text-shadow: 0px 0px 1px black;
 }
-	text-shadow: 0px 0px 1px black;
-}
-#p-main{
+.main{
 	border-left:solid 10px rgb(48, 48, 48);
 }
-#hiw-main{
-	border-left:solid 10px rgb(48, 48, 48);
+#nav{
+	list-style-type:none;
+	background-color:black;
+	position: absolute;
+	width:96%;
+	height:30px;
+	margin-top:-25px;
+	border-top:solid 10px black;
+	
+}
+.nav{
+	float:left;
+	text-align:center;
+	color:white;
+    background-color:black;
+	font-family:MedievalSharp;
+	margin-left:11%;
+}
 a:hover{
 	text-shadow: 0px -2px 0px #000000, 0 0 5px rgba(255, 255, 255, 0.8), 0 -4px 15px rgba(255, 255, 255, 0.5);
 }
