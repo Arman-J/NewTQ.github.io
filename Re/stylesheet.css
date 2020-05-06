@@ -1,0 +1,27 @@
+#heading{
+    font-family:Megrim;
+    text-align:center;
+    font-size:45px;
+    color:white;
+    background-color:black;
+}
+#logo{
+    color:rgb(212, 23, 48);
+}
+p{
+    ont-family:open sans; 
+    font-size:25px;
+    text-align:center;
+}
+#p-head:hover{
+	text-decoration:underline;
+}
+#hiw-head:hover{
+	text-decoration:underline;
+}
+#p-main{
+	border-left:solid 10px rgb(48, 48, 48);
+}
+#hiw-main{
+	border-left:solid 10px rgb(48, 48, 48);
+}
