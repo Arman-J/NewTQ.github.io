@@ -4,19 +4,20 @@
     font-size:45px;
     color:white;
     background-color:black;
+	padding-bottom:10px;
 }
 #logo{
     color:rgb(212, 23, 48);
+	font-style:italic;
 }
 p{
     font-family:open sans; 
     font-size:25px;
     text-align:center;
 }
-#p-head:hover{
+.head:hover{
 	text-shadow: 0px 0px 1px black;
 }
-#hiw-head:hover{
 	text-shadow: 0px 0px 1px black;
 }
 #p-main{
@@ -24,4 +25,10 @@ p{
 }
 #hiw-main{
 	border-left:solid 10px rgb(48, 48, 48);
+a:hover{
+	text-shadow: 0px -2px 0px #000000, 0 0 5px rgba(255, 255, 255, 0.8), 0 -4px 15px rgba(255, 255, 255, 0.5);
+}
+a{
+	text-decoration:none;
+	color:white;
 }
