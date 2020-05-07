@@ -28,10 +28,8 @@ function unfade(element) {
 /*Index*/
 //Problem
 var problemEl = document.getElementById("p-head");
-console.log(problemEl.textContent);
 var problemMain = document.getElementById("p-main");
 var countProblem = 0
-console.log(countProblem);
 var problemClick = function(){
 	if(countProblem === 0){
 		problemMain.textContent = "Our invention helps kids who are having trouble with their school subjects. It will help people study in a fun way; a trivia game! That way, it can promote them to having fun, and studying at the same time! With this game, People who aren't really into studying can study and have fun at the same time, with some competitiveness on the side.";
@@ -68,15 +66,3 @@ var hiwClick = function(){
     }
 };
 hiwEl.addEventListener("click", hiwClick);
-/*All*/
-//Nav
-var homeEls = getElementsByClassName("home");
-var productsEl = getElementById("products");
-var aboutEl = getElementById("about");
-var contactsEl = getElementById("contacts");
-var logSignEl = getElementById("logSign");
-homeEls.href = "index.html";
-productsEl.href = "products.html";
-aboutEl.href = "about.html";
-contactsEl.href = "contacts.html";
-logSign.href = "logSign.html";
