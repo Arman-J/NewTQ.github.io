@@ -22,7 +22,6 @@ p{
 	border-left:solid 10px rgb(48, 48, 48);
 }
 #nav{
-	list-style-type:none;
 	background-color:black;
 	position: absolute;
 	width:96%;
@@ -45,4 +44,7 @@ a:hover{
 a{
 	text-decoration:none;
 	color:white;
+}
+ul{
+	list-style-type:none;
 }
