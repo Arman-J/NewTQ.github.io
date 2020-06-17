@@ -48,3 +48,8 @@ a{
 ul{
 	list-style-type:none;
 }
+.sub{
+	font-size: 5px;
+	font-weight: bold;
+	margin-top: -15px;
+}
