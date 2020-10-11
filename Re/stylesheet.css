@@ -73,3 +73,9 @@ ul{
 	font-weight: bold;
 	margin-top: -15px;
 }
+#discord{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto
+}
